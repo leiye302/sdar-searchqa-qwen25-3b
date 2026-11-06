@@ -1,0 +1,20 @@
+{
+  "native_sdar_launcher": "examples/sdar_trainer/run_search_3b.sh",
+  "native_grpo_opsd_launcher": "examples/grpo_opsd_trainer/run_search_3b.sh",
+  "official_scientific_difference": {
+    "algorithm.sdar.gate_beta": {
+      "sdar": 5.0,
+      "grpo_opsd": 0.0
+    }
+  },
+  "published_beta5_reference": {
+    "repository": "leiye302/grpo-opsd-searchqa-qwen25-3b",
+    "commit": "16fc811ddd861e002f6318bfbb7d9f91581e095c"
+  },
+  "identity_only_experiment_keys": [
+    "trainer.project_name",
+    "trainer.experiment_name"
+  ],
+  "published_beta5_recipe_sha256": "fa028f5b7f55e115225a1edb79e4a5018caf782bd68a7028906c99db04ce228f",
+  "same_treatment_as_published_beta5": true
+}

@@ -1,0 +1,6 @@
+{
+  "size": "3b",
+  "family": "Qwen2.5",
+  "hardware": "4xA100-80GB",
+  "method": "official SDAR Search-QA, beta5, coefficient0.01, static skills"
+}

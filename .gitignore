@@ -1,0 +1,15 @@
+.deps/
+.venv*/
+.env
+models/
+data/
+runs/
+checkpoints/
+results/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+*.pt
+*.safetensors
+*.pending
